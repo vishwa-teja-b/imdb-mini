@@ -70,35 +70,5 @@ src/
 
 ## 📸 Screenshots
 
-> Add your app screenshots here after deployment.
-
----
-
-## 🧠 Learning Objectives
-
-- Learn how to use **React functional components**.
-- Understand and apply **React Hooks**:
-  - `useState`
-  - `useEffect`
-  - `useContext`
-- Use **React Router** for multi-page navigation.
-- Manage global state using **Context API**.
-- Persist data using **localStorage**.
-- Fetch data from external APIs (OMDB API).
-
----
-
-## 🔌 OMDB API
-
-This project uses the OMDB API.
-
-To use it:
-1. Go to [https://www.omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
-2. Get your free API key.
-3. Replace `YOUR_API_KEY` in the code (in `Home.jsx` and `MoviePage.jsx`) with your actual key.
-
-Example:
-```js
-fetch(`https://www.omdbapi.com/?apikey=YOUR_API_KEY&s=${query}`)
 
 
